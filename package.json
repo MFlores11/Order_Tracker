@@ -1,0 +1,29 @@
+{
+	"name": "moms-website",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite --host",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"@vitejs/plugin-basic-ssl": "^1.0.1",
+		"dotenv": "^16.0.3",
+		"netlify-cli": "^12.12.1",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-router-dom": "^6.8.0",
+		"react-spinners": "^0.13.8",
+		"zustand": "^4.3.3"
+	},
+	"devDependencies": {
+		"@types/react": "^18.0.26",
+		"@types/react-dom": "^18.0.9",
+		"@vitejs/plugin-react": "^3.0.0",
+		"prettier": "2.8.3",
+		"vite": "^4.0.0",
+		"vite-plugin-qrcode": "^0.2.1"
+	}
+}

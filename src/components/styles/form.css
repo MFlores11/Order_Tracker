@@ -1,0 +1,132 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+#root {
+	font-family: "Poppins", sans-serif;
+}
+
+.form-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 200px;
+	flex-direction: column;
+}
+
+.inputGroup {
+	margin: 1em 0 1.1em 0;
+	max-width: 190px;
+	position: relative;
+}
+
+.inputGroup input {
+	font-size: 100%;
+	padding: 0.9em;
+	outline: none;
+	border: 2px solid rgb(0, 0, 0);
+	background-color: transparent;
+	border-radius: 20px;
+	width: 100%;
+}
+
+.inputGroup label {
+	font-size: 100%;
+	position: absolute;
+	left: 0;
+	padding: 0.2em;
+	margin-left: 1em;
+	pointer-events: none;
+	transition: all 0.3s ease;
+	color: black;
+	transform: translateY(-50%) scale(0.9);
+	background-color: white;
+	font-size: 20px;
+}
+
+.error {
+	color: red;
+	display: none;
+}
+
+input:invalid ~ span {
+	display: block;
+}
+.checkboxContainer {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 5px;
+	flex-direction: row;
+}
+.checkboxContainer span {
+	display: flex;
+	margin: 0px 5px;
+}
+
+.order-container {
+	display: flex;
+	flex-direction: column;
+
+	border: 2px solid rgb(163, 24, 24);
+}
+
+/* button */
+.form-container .completeBtn {
+	display: inline-block;
+	border-radius: 4px;
+	background-color: #3d405b;
+	border: none;
+	color: #ffffff;
+	text-align: center;
+	font-size: 17px;
+	padding: 12px;
+	width: 130px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+}
+
+.form-container .completeBtn span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.form-container .completeBtn span:after {
+	content: "»";
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -15px;
+	transition: 0.5s;
+}
+
+.form-container .completeBtn:hover span {
+	padding-right: 15px;
+}
+
+.form-container .completeBtn:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+
+.counter {
+	display: flex;
+	flex-direction: row;
+
+	color: white;
+}
+.counterNum {
+	color: black;
+	padding: 0px 10px;
+}
+.counterBtn {
+	font-size: 20px;
+	background-color: white;
+	border: none;
+}

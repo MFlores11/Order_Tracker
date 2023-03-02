@@ -1,0 +1,11 @@
+.NavCart {
+	fill: white;
+	width: 30px;
+}
+
+@media screen and (max-width: 700px) {
+	.NavCart {
+		width: 35px;
+		fill: black;
+	}
+}

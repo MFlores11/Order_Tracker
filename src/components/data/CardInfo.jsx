@@ -1,0 +1,111 @@
+const CardInfo = [
+	{
+		title: "Pancit",
+		cardImg: "",
+		info: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing",
+		price: "$40",
+	},
+	{
+		title: "Spaghetti",
+		cardImg: "",
+		info: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing",
+		price: "$50",
+	},
+	{
+		title: "Palabok",
+		cardImg: "",
+		info: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing",
+		price: "$50",
+	},
+	{
+		title: "Korean Chicken",
+		cardImg: "",
+		info: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing",
+		price: "$50",
+	},
+	{
+		title: "Dinakdakan",
+		cardImg: "",
+		info: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing",
+		price: "$50",
+	},
+	{
+		title: "Kare Kare",
+		cardImg: "",
+		info: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing",
+		price: "$60",
+	},
+	{
+		title: "Pork BBQ",
+		cardImg: "",
+		info: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing",
+		price: "$20",
+	},
+	{
+		title: "Igado",
+		cardImg: "",
+		info: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing",
+		price: "$50",
+	},
+	{
+		title: "Lumpia",
+		cardImg: "",
+		info: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing",
+		price: "$60",
+	},
+	{
+		title: "Dinuguan",
+		cardImg: "",
+		info: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing",
+		price: "$50",
+	},
+	{
+		title: "Kaldereta",
+		cardImg: "",
+		info: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing",
+		price: "$60",
+	},
+	{
+		title: "Goto",
+		cardImg: "",
+		info: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing",
+		price: "$8",
+	},
+	{
+		title: "Grilled Liempp",
+		cardImg: "",
+		info: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing",
+		price: "$50",
+	},
+	{
+		title: "Banana Lumpia 12pcs",
+		cardImg: "",
+		info: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing",
+		price: "$15",
+	},
+	{
+		title: "Bibingka",
+		cardImg: "",
+		info: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing",
+		price: "$--",
+	},
+	{
+		title: "Nilupak",
+		cardImg: "",
+		info: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing",
+		price: "$25",
+	},
+	{
+		title: "Malagkit",
+		cardImg: "",
+		info: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing",
+		price: "$25",
+	},
+	{
+		title: "Bisteak",
+		cardImg: "",
+		info: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing",
+		price: "$50",
+	},
+];
+export default CardInfo;
